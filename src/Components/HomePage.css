@@ -1,0 +1,244 @@
+/* HomePage.css */
+
+.homepage-container {
+    margin-top: 50px;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    animation: fadeInUp 1s ease forwards;
+  }
+  
+  .headlines-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .headline {
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform 0.5s;
+  }
+  
+  .headline:hover {
+    transform: perspective(1000px) rotateY(10deg);
+  }
+  
+  .headline-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .headline-info {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .auth-button {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .auth-button:hover {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .auth-button svg {
+    margin-right: 5px;
+  }
+  .news-container {
+    max-height: 100vh; /* Set maximum height to allow scrolling */
+    overflow-y: auto; /* Add vertical scroll bar when content exceeds max height */
+  }
+  .search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .auth-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-button svg {
+    margin-right: 5px;
+  }
+  
+  .news-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .news-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .news-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .news-title {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  
+  .news-description {
+    margin: 0 0 10px;
+  }
+  
+  .news-source {
+    font-style: italic;
+  }
+  
+  .news-date {
+    font-style: italic;
+  }
+  .news-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search-bar-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .auth-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-button svg {
+    margin-right: 5px;
+  }
+  
+  .news-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .news-list-container {
+    transition: opacity 0.5s ease;
+  }
+  
+  .no-news-container {
+    text-align: center;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+  }
+  
+  .no-news-image {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .no-news-text {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .news-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    transition: opacity 0.5s ease;
+  }
+  
+  .news-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .news-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  
+  
+  
+  
